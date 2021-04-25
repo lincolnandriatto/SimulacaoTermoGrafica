@@ -1,0 +1,5 @@
+/home/lincoln/GdriveUSP/Simulacao_termografia/build/CMakeFiles/rebuild_cache.dir
+/home/lincoln/GdriveUSP/Simulacao_termografia/build/CMakeFiles/ep.dir
+/home/lincoln/GdriveUSP/Simulacao_termografia/build/CMakeFiles/edit_cache.dir
+/home/lincoln/GdriveUSP/Simulacao_termografia/build/CMakeFiles/GLAD.dir
+/home/lincoln/GdriveUSP/Simulacao_termografia/build/CMakeFiles/STB_IMAGE.dir

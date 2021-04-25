@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ep"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\configuration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ep">
+				<Option output="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/ep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/configuration"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/includes"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/Utils"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/iterFunc"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/of"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 ep"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ep/fast">
+				<Option output="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/ep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/configuration"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/includes"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/Utils"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/iterFunc"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/of"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 ep/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/configuration"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/includes"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/Utils"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/iterFunc"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/of"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 GLAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/configuration"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/includes"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/Utils"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/iterFunc"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/of"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE">
+				<Option output="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/configuration"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/includes"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/Utils"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/iterFunc"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/of"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE/fast">
+				<Option output="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/configuration"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/includes"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/Utils"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/VisOf/iterFunc"/>
+					<Add directory="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/of"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 STB_IMAGE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/Gizmo.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/Gizmo.h">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/TrackBall.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/TrackBall.h">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/lgl/Error.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/lgl/Shader.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/lgl/Util.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/main.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/scrInteractor.cpp">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/scrInteractor.h">
+			<Option target="ep"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/stb_image.cpp">
+			<Option target="STB_IMAGE"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/cmake/modules/FindASSIMP.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/cmake/modules/FindGLFW3.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/cmake/modules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/lincoln/GdriveUsp/epMvga2015/Simulacao_termografia/configuration/root_directory.h.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

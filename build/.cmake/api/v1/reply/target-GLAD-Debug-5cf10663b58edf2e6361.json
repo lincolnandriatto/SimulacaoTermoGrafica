@@ -1,0 +1,151 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libGLAD.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 176,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/build/configuration"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/includes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/includes/imgui"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/VisOf"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/VisOf/Utils"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/VisOf/iterFunc"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/lincoln/GdriveUSP/Simulacao_termografia/of"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "GLAD::@6890427a1f51a3e7e1df",
+	"name" : "GLAD",
+	"nameOnDisk" : "libGLAD.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "glad.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
